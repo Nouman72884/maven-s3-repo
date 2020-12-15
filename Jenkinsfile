@@ -13,7 +13,7 @@ pipeline {
         stage ('build stage') {
             steps {
                 //sh 'mvn clean install package'
-                sh 'mvn  clean deploy'
+                sh 'mvn  clean install'
             }
         }
         // stage ('publish artifacts') {
